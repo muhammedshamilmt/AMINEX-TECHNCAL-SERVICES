@@ -18,8 +18,8 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Flowen Finance - Empower Smarter Decisions",
-  description: "Streamline financial workflows and uncover growth opportunities through automation and insight.",
+  title: "Aminex Technical Services - Modern Infrastructure Solutions",
+  description: "Professional ELV, ICT, AV, and Automation services for modern business infrastructures.",
 };
 
 export default function RootLayout({

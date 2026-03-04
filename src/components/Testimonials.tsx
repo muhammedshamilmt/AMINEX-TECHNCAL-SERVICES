@@ -7,30 +7,30 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    content: "Flowen has helped us save hours of manual reporting each week. Truly a game-changer.",
-    author: "Bryan Raymond",
-    role: "CFO at Nexora",
+    content: "Aminex transformed our facility's infrastructure. Their ELV and ICT solutions are second to none in terms of reliability.",
+    author: "Michael Chen",
+    role: "CTO at TechGrid",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop",
   },
   {
     id: 2,
-    content: "With Flowen, we automate every aspect of our financial operations. It's simply brilliant.",
-    author: "David Klein",
-    role: "Founder of Payzen",
+    content: "The precision in their implementation and the responsiveness of their support team made our transition to smart automation seamless.",
+    author: "Sarah Jenkins",
+    role: "Operations Director at BuildCorp",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop",
   },
   {
     id: 3,
-    content: "Flowen helped us reduce reporting from hours to minutes. Now we can finally focus on growth.",
-    author: "Adam Thompson",
-    role: "COO at Finora",
+    content: "We've worked with many technical firms, but Aminex's attention to detail and engineering standards set them apart.",
+    author: "Robert Miller",
+    role: "Facility Manager at GrandPlaza",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000&auto=format&fit=crop",
   },
 ];
 
 export function Testimonials() {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-16 md:py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid lg:grid-cols-[400px,1fr] gap-16 items-center">
           {/* Left Content */}
@@ -42,13 +42,14 @@ export function Testimonials() {
               <span className="text-sm font-medium text-zinc-900">Testimonial</span>
             </div>
 
-            <h2 className="text-5xl font-semibold leading-tight text-zinc-900">
-              Loved By <span className="text-orange-500 italic" style={{ fontFamily: "'Instrument Serif', serif" }}>Teams</span> <br />
-              Worldwide
-            </h2>
+            <h2 className="text-3xl md:text-5xl font-semibold leading-tight text-zinc-900">
+                Trusted By <span className="text-orange-500 italic" style={{ fontFamily: "'Instrument Serif', serif" }}>Industry</span> <br />
+                Leaders
+              </h2>
+
 
             <p className="text-zinc-500 text-lg leading-relaxed max-w-sm">
-              Thousands of businesses trust Flowen to simplify financial management and accelerate growth.
+              Thousands of businesses trust Aminex to simplify technical management and accelerate operational efficiency.
             </p>
 
             <button className="bg-black text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-zinc-800 transition-all shadow-lg shadow-black/10">

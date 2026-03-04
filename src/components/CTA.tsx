@@ -32,22 +32,23 @@ export function CTA() {
               </div>
             </div>
 
-            {/* Heading */}
-            <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1] text-white">
-              Ready <span className="text-orange-500 italic font-medium" style={{ fontFamily: "'Instrument Serif', serif" }}>To Take</span> Control <br className="hidden md:block" />
-              Of Your Finances?
-            </h2>
+                {/* Heading */}
+<h2 className="text-3xl md:text-6xl font-semibold tracking-tight leading-[1.1] text-white">
+Ready <span className="text-orange-500 italic font-medium" style={{ fontFamily: "'Instrument Serif', serif" }}>To Future-Proof</span> Your <br className="hidden md:block" />
+Technical Infrastructure?
+</h2>
+
 
             {/* Subtext */}
             <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed">
-              Experience smarter automation, real-time insights, and <br className="hidden md:block" />
-              effortless growth — all with Flowen.
+              Leverage our expertise in ELV, ICT, and automation to build a <br className="hidden md:block" />
+              more resilient and efficient business environment with Aminex.
             </p>
 
             {/* Button */}
             <div className="pt-4">
               <button className="bg-white text-zinc-950 px-10 py-5 rounded-full text-lg font-bold hover:scale-105 active:scale-95 transition-all shadow-[0_20px_40px_rgba(0,0,0,0.3)]">
-                Get started today <span className="text-zinc-500 font-normal ml-1">- It's Free</span>
+                Get a Free Consultation <span className="text-zinc-500 font-normal ml-1">- Contact Us</span>
               </button>
             </div>
           </div>

@@ -2,7 +2,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/Hero";
 import { AboutSection } from "@/components/AboutSection";
 import { HowWeWork } from "@/components/HowWeWork";
-import { Services } from "@/components/Services";
+import { SmartAutomation } from "@/components/SmartAutomation";
+import { ServicesSection } from "@/components/ServicesSection";
 import { Testimonials } from "@/components/Testimonials";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
@@ -13,8 +14,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutSection />
+      <ServicesSection />
       <HowWeWork />
-      <Services />
+      <SmartAutomation />
       <Testimonials />
       <CTA />
       <Footer />
