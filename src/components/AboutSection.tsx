@@ -26,10 +26,27 @@ export function AboutSection() {
   ];
 
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="pt-0 pb-12 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
+        {/* Social Proof */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="pb-20 pt-8 text-center"
+        >
+          <p className="text-sm font-medium text-zinc-400 mb-10 tracking-wide uppercase">Trusted by leading companies around the world</p>
+          <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-10 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
+             <span className="text-2xl font-bold tracking-tighter">slack</span>
+             <span className="text-2xl font-bold tracking-tighter">Xiaomi</span>
+             <span className="text-2xl font-bold tracking-tighter italic">HubSpot</span>
+             <span className="text-2xl font-bold tracking-tighter">Walmart<span className="text-orange-500">*</span></span>
+             <span className="text-2xl font-bold tracking-tighter">Spotify</span>
+          </div>
+        </motion.div>
+
         {/* About Header */}
-        <div className="flex flex-col lg:flex-row gap-12 mb-24">
+        <div className="flex flex-col lg:flex-row gap-12 mb-20">
           <div className="lg:w-3/5 space-y-8">
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
@@ -79,7 +96,7 @@ export function AboutSection() {
         </div>
 
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24 relative">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24 relative mb-24">
           {features.map((feature, index) => (
             <motion.div 
               key={index}
@@ -116,6 +133,7 @@ export function AboutSection() {
             </motion.div>
           ))}
         </div>
+
       </div>
     </section>
   );

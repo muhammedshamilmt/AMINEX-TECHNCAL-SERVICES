@@ -53,7 +53,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white"
           >
-            <div className="aspect-[21/9] relative">
+            <div className="aspect-[17/9] relative">
               <Image 
                 src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80" 
                 alt="Modern Finance Team"
@@ -108,18 +108,6 @@ export function Hero() {
               </button>
             </div>
           </motion.div>
-        </div>
-
-        {/* Social Proof */}
-        <div className="mt-20 pt-10 border-t border-zinc-100 text-center">
-          <p className="text-sm font-medium text-zinc-400 mb-10 tracking-wide uppercase">Trusted by leading companies around the world</p>
-          <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-10 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
-             <span className="text-2xl font-bold tracking-tighter">slack</span>
-             <span className="text-2xl font-bold tracking-tighter">Xiaomi</span>
-             <span className="text-2xl font-bold tracking-tighter italic">HubSpot</span>
-             <span className="text-2xl font-bold tracking-tighter">Walmart<span className="text-orange-500">*</span></span>
-             <span className="text-2xl font-bold tracking-tighter">Spotify</span>
-          </div>
         </div>
       </div>
     </section>
