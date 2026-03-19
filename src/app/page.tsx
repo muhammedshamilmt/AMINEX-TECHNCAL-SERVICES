@@ -17,7 +17,7 @@ export default function Home() {
       <ServicesSection />
       <HowWeWork />
       <SmartAutomation />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <CTA />
       <Footer />
     </main>

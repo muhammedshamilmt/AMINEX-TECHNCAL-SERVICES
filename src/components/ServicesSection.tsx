@@ -124,9 +124,9 @@ export function ServicesSection() {
       )
     },
     {
-      title: "Software Solutions",
-      slug: "software-solutions",
-      description: "Custom enterprise software development and integrated ERP solutions to optimize your business workflow.",
+      title: "Monitoring Solutions",
+      slug: "monitoring-solutions",
+      description: "Gain complete oversight of your operations with our advanced monitoring solutions. ",
       icon: Code,
       bottomLeft: (
         <div className="flex items-center gap-3">
@@ -165,7 +165,7 @@ export function ServicesSection() {
             {[4, 5, 6].map((i) => (
               <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden bg-zinc-100 relative">
                 <Image 
-                  src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i + 20}`} 
+                  src={`https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D=${i + 20}`} 
                   alt="Avatar" 
                   fill
                   className="object-cover"

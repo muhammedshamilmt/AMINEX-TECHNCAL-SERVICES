@@ -37,7 +37,6 @@ className="pb-12 md:pb-20 pt-4 md:pt-8 text-center"
 >
 <p className="text-[10px] md:text-sm font-medium text-zinc-400 mb-6 md:mb-10 tracking-wide uppercase">Trusted by industry leaders in technical infrastructure</p>
 <div className="flex flex-wrap items-center justify-center gap-x-8 md:gap-x-16 gap-y-6 md:gap-y-10 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
-<span className="text-xl md:text-2xl font-bold tracking-tighter">AMAZON</span>
 <span className="text-xl md:text-2xl font-bold tracking-tighter">SIEMENS</span>
 <span className="text-xl md:text-2xl font-bold tracking-tighter italic">SCHNEIDER</span>
 <span className="text-xl md:text-2xl font-bold tracking-tighter">CISCO<span className="text-orange-500">*</span></span>

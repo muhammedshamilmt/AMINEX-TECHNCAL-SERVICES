@@ -115,6 +115,7 @@ export function Footer() {
         <div className="relative w-full h-[350px] sm:h-[450px] md:h-[550px] overflow-hidden group">
            <img 
              src="/footer.png" 
+            //  src="/footer.png" 
              alt="Aminex Engineering" 
              className="w-full h-full object-cover object-bottom transition-transform duration-700 "
            />

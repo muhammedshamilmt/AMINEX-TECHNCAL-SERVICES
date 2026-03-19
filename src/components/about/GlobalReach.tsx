@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export function GlobalReach() {
   const stats = [
-    { label: "Successful Projects", value: "500+" },
-    { label: "Expert Professionals", value: "120+" },
-    { label: "Global Locations", value: "15" },
-    { label: "Quality Standards", value: "ISO" },
+    { label: "Successful Projects", value: "200+" },
+    { label: "Expert Professionals", value: "12+" },
+    // { label: "Global Locations", value: "15" },
+    // { label: "Quality Standards", value: "ISO" },
   ];
 
   return (
@@ -32,7 +32,7 @@ export function GlobalReach() {
       </div>
       
       <div className="container mx-auto px-4 max-w-7xl relative z-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-16">
+        <div className="grid grid-cols-2 gap-12 md:gap-16">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
@@ -40,7 +40,7 @@ export function GlobalReach() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.6 }}
-              className="text-center md:text-left space-y-4"
+              className="text-center  space-y-4"
             >
               <div className="text-5xl md:text-7xl font-bold text-orange-500 tracking-tighter">
                 {stat.value}
